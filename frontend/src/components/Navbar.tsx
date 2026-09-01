@@ -1,19 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Volume2, VolumeX } from "lucide-react";
 import { getSfxEnabled, setSfxEnabled, sfx } from "@/lib/sfx";
 import { scrollToId } from "@/lib/scroll";
 import { profile } from "@/data/portfolio";
+import { trackVisit, type VisitStats } from "@/lib/visitors";
 
 const LINKS = [
   { id: "about", label: "ABOUT" },
   { id: "skills", label: "SKILLS" },
   { id: "quests", label: "QUESTS" },
+  { id: "trophies", label: "TROPHIES" },
   { id: "minigame", label: "BONUS" },
   { id: "contact", label: "CONTACT" },
 ];
 
 export default function Navbar() {
   const [soundOn, setSoundOn] = useState(getSfxEnabled());
+  const [stats, setStats] = useState<VisitStats | null>(null);
+
+  useEffect(() => {
+    trackVisit().then(setStats).catch(() => {});
+  }, []);
 
   const toggleSound = () => {
     const next = !soundOn;
@@ -54,7 +61,12 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <span className="hidden font-terminal text-lg text-arcade-green sm:block">STATUS: OPEN TO WORK</span>
+          {stats && (
+            <span data-testid="players-online" className="hidden font-terminal text-lg text-neon-cyan sm:block">
+              <span className="animate-blink text-arcade-green">●</span> {stats.online} ONLINE · {stats.total} PLAYERS
+            </span>
+          )}
+          <span className="hidden font-terminal text-lg text-arcade-green xl:block">STATUS: OPEN TO WORK</span>
           <button
             data-testid="sound-toggle-btn"
             onClick={toggleSound}

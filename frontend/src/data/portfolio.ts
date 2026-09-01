@@ -176,6 +176,59 @@ export const quests: Quest[] = [
   },
 ];
 
+export interface Trophy {
+  id: string;
+  title: string;
+  desc: string;
+  rarity: "LEGENDARY" | "EPIC" | "RARE" | "UNCOMMON";
+  color: string;
+}
+
+export const trophies: Trophy[] = [
+  {
+    id: "award",
+    title: "DIRECTOR'S AWARD 2025",
+    desc: "Awarded at IEM Kolkata for outstanding academic excellence.",
+    rarity: "LEGENDARY",
+    color: "#eab308",
+  },
+  {
+    id: "cgpa",
+    title: "CGPA 9.76 — BCA TOPPER",
+    desc: "BCA at IEM Kolkata (2022–25). Near-perfect run, no continues.",
+    rarity: "EPIC",
+    color: "#ec4899",
+  },
+  {
+    id: "sgpa",
+    title: "SGPA 9.67 — MCA",
+    desc: "MCA at SRM IST Chennai, class of 2027. Streak continues.",
+    rarity: "EPIC",
+    color: "#a855f7",
+  },
+  {
+    id: "nptel",
+    title: "NPTEL PYTHON CERTIFIED",
+    desc: "Certified in Python programming through NPTEL.",
+    rarity: "RARE",
+    color: "#06b6d4",
+  },
+  {
+    id: "debate",
+    title: "DEBATE CHAMPION",
+    desc: "Champion speaker — communication stat maxed out.",
+    rarity: "RARE",
+    color: "#10b981",
+  },
+  {
+    id: "intern",
+    title: "HR INTERN @ SYNTALIX.AI",
+    desc: "Real-world side quest completed, Mar–Jul 2024.",
+    rarity: "UNCOMMON",
+    color: "#ef4444",
+  },
+];
+
 export const highScores = [
   { rank: "1ST", name: "YOU — READING THIS", score: "999999" },
   { rank: "2ND", name: "ANKITA SARKAR", score: "009867" },

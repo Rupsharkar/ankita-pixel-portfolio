@@ -112,6 +112,18 @@ export const STAR = [
   ".X...X.",
 ];
 
+export const TROPHY = [
+  "X.XXXXX.X",
+  "X.XXXXX.X",
+  "XXXXXXXXX",
+  ".XXXXXXX.",
+  "..XXXXX..",
+  "...XXX...",
+  "....X....",
+  "...XXX...",
+  "..XXXXX..",
+];
+
 export const COIN = [
   ".XXXX.",
   "XXXXXX",

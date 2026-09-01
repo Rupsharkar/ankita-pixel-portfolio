@@ -143,6 +143,7 @@ export default function MiniGame() {
 
       if (g.bricks.every((br) => !br.alive)) {
         sfx.powerup();
+        window.dispatchEvent(new CustomEvent("pixel-cheer", { detail: "STAGE CLEAR!! SHE'S HIRE-READY ★" }));
         setPhase("win");
         return;
       }
@@ -152,6 +153,7 @@ export default function MiniGame() {
         setLives(g.lives);
         sfx.hit();
         if (g.lives <= 0) {
+          window.dispatchEvent(new CustomEvent("pixel-cheer", { detail: "OUCH! INSERT COIN — TRY AGAIN!" }));
           setPhase("over");
           return;
         }

@@ -36,9 +36,17 @@ All placeholder content replaced with real resume data: ANKITA SARKAR, MCA @ SRM
 - Playable BONUS STAGE: BREAKOUT.EXE mini-game (MiniGame.tsx, canvas, mouse/arrow controls, skill-row bricks, score/lives/last-clear HUD, win = "HIRE-READY CANDIDATE"). BONUS added to navbar.
 
 ## Implemented (2026-09-01, session 3)
-- Kawaii mascot "PIXEL the cat": multi-color PixelArt component (PixelSprite.tsx), big kawaii cat in hero (replacing large invader; small invader kept as sidekick), fixed bottom-left KawaiiBuddy with rotating speech bubbles + click-to-pet heart bursts.
-- De-branded the whole site: all HCL GUVI / Haveloc references removed (hero, boot screen, navbar, marquee, HUD, about specs, mission brief, contact placeholders, footer). Now works for any company. Verified via grep: zero matches.
-- Deployment initiated (first deploy, 50 ECU confirmed). NOTE: initial deploy ran on pre-kawaii code — redeploy needed to publish latest changes.
+- Kawaii mascot "PIXEL the cat": multi-color PixelArt component, kawaii cat in hero, bottom-left KawaiiBuddy with rotating speech bubbles + click-to-pet heart bursts.
+- De-branded: all HCL GUVI / Haveloc references removed — portfolio works for any company (grep-verified).
+- First deploy initiated (50 ECU confirmed). Redeploy needed to publish post-deploy changes.
+
+## Implemented (2026-09-01, session 4)
+- Trophy Room (Chapter 04): 6 achievements unlock on scroll with rarity badges (Director's Award LEGENDARY, CGPA/SGPA EPIC, NPTEL/Debate RARE, Internship UNCOMMON). TROPHIES navbar link added.
+- Visitor counter: POST /api/visit (stats counter doc + visits collection with 300s TTL index). Navbar shows "X ONLINE · Y PLAYERS", footer shows PLAYER COUNT.
+- Cat reactions: window "pixel-cheer" CustomEvent — buddy cheers with green bubble + bounce + heart bursts on minigame win/loss and contact submit.
+- Mobile polish: buddy now visible on mobile, bubble max-width, all layouts verified at 390x844.
+- Hardening: contact form 20s per-IP cooldown (429), visits TTL auto-purge.
+- Testing agent iteration_1: 100% backend + 100% frontend pass.
 
 ## Backlog
 - P1: Visitor counter / "players online" arcade stat

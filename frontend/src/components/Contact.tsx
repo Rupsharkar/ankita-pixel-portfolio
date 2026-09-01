@@ -21,6 +21,7 @@ export default function Contact() {
     try {
       await apiPost("/contact", form);
       sfx.powerup();
+      window.dispatchEvent(new CustomEvent("pixel-cheer", { detail: "MESSAGE SENT! ♥ ANKITA WILL REPLY SOON" }));
       toast.success("NEW HIGH SCORE! MESSAGE TRANSMITTED", {
         description: "I'll respawn in your inbox within 24 hours.",
       });

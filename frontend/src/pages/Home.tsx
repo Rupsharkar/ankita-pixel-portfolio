@@ -10,6 +10,7 @@ import Marquee from "@/components/Marquee";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Quests from "@/components/Quests";
+import Achievements from "@/components/Achievements";
 import MiniGame from "@/components/MiniGame";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -37,6 +38,7 @@ export default function Home() {
         <About />
         <Skills />
         <Quests />
+        <Achievements />
         <MiniGame />
         <Contact />
       </main>
