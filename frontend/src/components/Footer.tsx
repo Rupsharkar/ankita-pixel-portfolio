@@ -6,7 +6,7 @@ export default function Footer() {
       <p className="font-arcade text-[10px] text-slate-500">GAME OVER? NO — GAME START.</p>
       <p className="mt-4 font-terminal text-lg text-slate-500">
         © 2026 {profile.name} · BUILT WITH 8-BIT LOVE ·{" "}
-        <span className="text-arcade-green">HAVELOC PROFILE ACTIVE</span> · TRY THE KONAMI CODE: ↑↑↓↓←→←→BA
+        <span className="text-arcade-green">OPEN TO WORK</span> · TRY THE KONAMI CODE: ↑↑↓↓←→←→BA
       </p>
     </footer>
   );

@@ -2,7 +2,7 @@ export const profile = {
   name: "ANKITA SARKAR",
   handle: "ANKITA.EXE",
   tagline: "MCA · SRM IST",
-  mission: "READY FOR HCL GUVI",
+  mission: "OPEN TO WORK",
   location: "KOLKATA → CHENNAI",
   email: "as2332@srmist.edu.in",
   phone: "+91-8910463954",
@@ -16,19 +16,19 @@ export const profile = {
 export const heroLines = [
   { text: "ANKITA SARKAR", color: "text-neon-cyan", glow: "drop-shadow-[0_0_16px_rgba(6,182,212,0.75)]" },
   { text: "MCA · SRM IST '27", color: "text-neon-pink", glow: "drop-shadow-[0_0_16px_rgba(236,72,153,0.75)]" },
-  { text: "READY FOR HCL GUVI", color: "text-pixel-yellow", glow: "drop-shadow-[0_0_16px_rgba(234,179,8,0.75)]" },
+  { text: "PRESS HIRE TO CONTINUE", color: "text-pixel-yellow", glow: "drop-shadow-[0_0_16px_rgba(234,179,8,0.75)]" },
 ];
 
 export const hudStats = [
   { label: "HP", value: "100/100" },
   { label: "LEVEL", value: "MCA · SRM IST" },
   { label: "CLASS", value: "DSA ALCHEMIST" },
-  { label: "GUILD", value: "HAVELOC" },
-  { label: "TARGET", value: "HCL GUVI" },
+  { label: "GUILD", value: "OPEN TO WORK" },
+  { label: "TARGET", value: "YOUR COMPANY?" },
 ];
 
 export const marqueeItems = [
-  "HCL GUVI READY",
+  "OPEN TO WORK — HIRE PLAYER 1",
   "MCA · SRM IST · CLASS OF 2027",
   "SGPA 9.67",
   "C++ · PYTHON · JAVA · SQL",
@@ -69,14 +69,14 @@ export const aboutSpecs = [
   { label: "BCA", value: "IEM KOLKATA (2022–25 · CGPA 9.76)" },
   { label: "QUEST", value: "HR INTERN @ SYNTALIX.AI (MAR–JUL 2024)" },
   { label: "BASE", value: "KOLKATA → CHENNAI" },
-  { label: "GUILD", value: "HAVELOC — APPLICATION ACTIVE" },
-  { label: "TARGET", value: "HCL GUVI — ENTRY-LEVEL IT ROLES" },
+  { label: "GUILD", value: "OPEN TO WORK — CLASS OF 2027" },
+  { label: "TARGET", value: "SDE · SOFTWARE / IT ROLES" },
   { label: "AWARDS", value: "DIRECTOR'S AWARD 2025 · DEBATE CHAMPION" },
   { label: "LANGUAGES", value: "EN / BN / HI" },
 ];
 
 export const missionBrief =
-  "MISSION BRIEF: HCL GUVI builds learning and hiring infrastructure for millions of developers. This candidate pairs a 9.67 SGPA with hands-on builds in gesture control, ML safety systems and IoT — plus the communication and teamwork stats of a proven coordinator. Ready to level up inside a technology-driven team.";
+  "MISSION BRIEF: Dear recruiter — you've found a candidate who pairs a 9.67 SGPA with hands-on builds in gesture control, ML safety systems and IoT, plus the communication and teamwork stats of a proven coordinator. Whatever your tech stack, she levels up fast. Press HIRE to continue.";
 
 export interface Skill {
   name: string;

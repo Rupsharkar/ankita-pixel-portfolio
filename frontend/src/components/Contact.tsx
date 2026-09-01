@@ -73,7 +73,7 @@ export default function Contact() {
                     maxLength={120}
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
-                    placeholder="RECRUITER @ HCL GUVI"
+                    placeholder="RECRUITER @ DREAM COMPANY"
                     className={`mt-2 ${inputCls}`}
                   />
                 </label>
@@ -86,7 +86,7 @@ export default function Contact() {
                     maxLength={200}
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
-                    placeholder="you@hclguvi.com"
+                    placeholder="you@yourcompany.com"
                     className={`mt-2 ${inputCls}`}
                   />
                 </label>

@@ -14,6 +14,7 @@ import MiniGame from "@/components/MiniGame";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import KonamiEasterEgg from "@/components/KonamiEasterEgg";
+import KawaiiBuddy from "@/components/KawaiiBuddy";
 
 export default function Home() {
   const [booted, setBooted] = useState(false);
@@ -41,6 +42,7 @@ export default function Home() {
       </main>
       <Footer />
       <KonamiEasterEgg />
+      <KawaiiBuddy />
       <Toaster
         position="bottom-right"
         theme="dark"

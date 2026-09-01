@@ -54,7 +54,7 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <span className="hidden font-terminal text-lg text-arcade-green sm:block">GUVI STATUS: ONLINE</span>
+          <span className="hidden font-terminal text-lg text-arcade-green sm:block">STATUS: OPEN TO WORK</span>
           <button
             data-testid="sound-toggle-btn"
             onClick={toggleSound}

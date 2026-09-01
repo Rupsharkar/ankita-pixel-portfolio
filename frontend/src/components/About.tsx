@@ -93,7 +93,7 @@ export default function About() {
 
             <PixelPanel color="#eab308" testId="mission-brief-panel">
               <div className="p-6">
-                <p className="font-arcade text-[10px] text-pixel-yellow">! MISSION BRIEF — HCL GUVI</p>
+                <p className="font-arcade text-[10px] text-pixel-yellow">! MISSION BRIEF — DEAR RECRUITER</p>
                 <p className="mt-4 font-code text-sm leading-relaxed text-slate-300">{missionBrief}</p>
               </div>
             </PixelPanel>

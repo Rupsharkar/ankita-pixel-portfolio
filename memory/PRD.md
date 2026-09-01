@@ -35,6 +35,11 @@ All placeholder content replaced with real resume data: ANKITA SARKAR, MCA @ SRM
 - Quest cards: removed fake demo/repo links (user's GitHub is empty) → "REQUEST LIVE DEMO" CTA that closes modal and scrolls to contact.
 - Playable BONUS STAGE: BREAKOUT.EXE mini-game (MiniGame.tsx, canvas, mouse/arrow controls, skill-row bricks, score/lives/last-clear HUD, win = "HIRE-READY CANDIDATE"). BONUS added to navbar.
 
+## Implemented (2026-09-01, session 3)
+- Kawaii mascot "PIXEL the cat": multi-color PixelArt component (PixelSprite.tsx), big kawaii cat in hero (replacing large invader; small invader kept as sidekick), fixed bottom-left KawaiiBuddy with rotating speech bubbles + click-to-pet heart bursts.
+- De-branded the whole site: all HCL GUVI / Haveloc references removed (hero, boot screen, navbar, marquee, HUD, about specs, mission brief, contact placeholders, footer). Now works for any company. Verified via grep: zero matches.
+- Deployment initiated (first deploy, 50 ECU confirmed). NOTE: initial deploy ran on pre-kawaii code — redeploy needed to publish latest changes.
+
 ## Backlog
 - P1: Visitor counter / "players online" arcade stat
 - P1: Add real demo/repo links to quests once user publishes projects on GitHub

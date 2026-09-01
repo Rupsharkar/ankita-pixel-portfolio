@@ -22,7 +22,7 @@ export default function BootScreen({ onStart }: { onStart: () => void }) {
         PORTFOLIO.EXE
       </h1>
       <p className="mt-4 font-terminal text-xl tracking-widest text-slate-400 sm:text-2xl">
-        MCA QUEST // HCL GUVI EDITION
+        MCA QUEST // RECRUITER EDITION
       </p>
 
       <div className="mt-14 flex flex-col items-center gap-5">
@@ -43,8 +43,8 @@ export default function BootScreen({ onStart }: { onStart: () => void }) {
       </div>
 
       <p className="absolute bottom-8 px-4 text-center font-terminal text-base text-slate-500 sm:text-lg">
-        HAVELOC PROFILE: <span className="text-arcade-green">ACTIVE</span> · HCL GUVI:{" "}
-        <span className="text-neon-cyan">LOCKED ON</span>
+        PLAYER STATUS: <span className="text-arcade-green">OPEN TO WORK</span> · NEXT PARTY:{" "}
+        <span className="text-neon-cyan">YOUR TEAM</span>
       </p>
     </motion.div>
   );

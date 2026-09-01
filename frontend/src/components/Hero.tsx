@@ -3,7 +3,7 @@ import { motion, useMotionValue, useTransform } from "motion/react";
 import { toast } from "sonner";
 import { Download, Gamepad2 } from "lucide-react";
 import { heroLines, hudStats, profile } from "@/data/portfolio";
-import { PixelSprite, INVADER } from "@/components/PixelSprite";
+import { PixelSprite, PixelArt, INVADER, KAWAII_CAT, CAT_PALETTE } from "@/components/PixelSprite";
 import { scrollToId } from "@/lib/scroll";
 import { sfx } from "@/lib/sfx";
 
@@ -114,9 +114,9 @@ export default function Hero({ booted }: HeroProps) {
             className="mt-8 max-w-xl font-terminal text-xl leading-snug text-slate-300 sm:text-2xl"
             data-testid="hero-subtitle"
           >
-            MCA student at <span className="text-neon-cyan">SRM IST</span> (SGPA 9.67) applying to{" "}
-            <span className="text-neon-cyan">HCL GUVI</span> via <span className="text-pixel-yellow">Haveloc</span>.
-            I turn C++, Python and ML into experiences that feel like games.
+            MCA student at <span className="text-neon-cyan">SRM IST</span> (SGPA 9.67). I turn C++, Python and ML
+            into experiences that feel like games. <span className="text-pixel-yellow">Your team</span> could be my
+            next co-op mode.
           </motion.p>
 
           <motion.div
@@ -172,12 +172,15 @@ export default function Hero({ booted }: HeroProps) {
           transition={{ delay: 0.9, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
           className="hidden flex-col items-center gap-6 lg:flex"
         >
-          <div className="animate-float drop-shadow-[0_0_24px_rgba(6,182,212,0.5)]">
-            <PixelSprite rows={INVADER} size={14} color="#06b6d4" testId="hero-invader-sprite" />
+          <div className="animate-float drop-shadow-[0_0_24px_rgba(251,113,133,0.45)]">
+            <PixelArt rows={KAWAII_CAT} palette={CAT_PALETTE} size={13} testId="hero-kawaii-sprite" />
+          </div>
+          <div className="-mt-2 drop-shadow-[0_0_14px_rgba(6,182,212,0.4)]">
+            <PixelSprite rows={INVADER} size={5} color="#06b6d4" testId="hero-invader-sprite" />
           </div>
           <div className="pixel-corners-sm bg-neon-pink p-[3px]">
             <div className="pixel-corners-sm bg-void px-5 py-3 text-center">
-              <p className="font-arcade text-xs text-neon-pink">P1</p>
+              <p className="font-arcade text-xs text-neon-pink">P1 + CAT</p>
               <p className="mt-1 font-terminal text-sm text-slate-400">READY!</p>
             </div>
           </div>
