@@ -1,0 +1,147 @@
+{
+  "project_title": "MCA Retro Arcade Portfolio - Haveloc / HCL GUVI Candidate",
+  "theme_strategy": {
+    "mode": "dark",
+    "aesthetic": "Classic Arcade Dark (Neon Cyan, Electric Magenta, Pixel Gold on Obsidian Black with CRT Scanlines)",
+    "context": "High-impact memorable interactive portfolio for an MCA student applying to HCL GUVI via Haveloc. Styled as a playable 8-bit/16-bit arcade quest, combining nostalgic CRT retro visuals with ultra-slick modern web motion.",
+    "emotional_tone": "Playful, hyper-confident, technically formidable, unforgettable"
+  },
+  "typography": {
+    "font_imports": "@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Pixelify+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');",
+    "font_families": {
+      "arcade_display": "'Press Start 2P', cursive, monospace",
+      "pixel_subhead": "'Pixelify Sans', sans-serif",
+      "terminal_mono": "'VT323', monospace",
+      "code_body": "'JetBrains Mono', monospace"
+    },
+    "hierarchy_rules": {
+      "h1_hero": "text-3xl sm:text-4xl lg:text-5xl font-arcade tracking-wider text-neon-cyan drop-shadow-[0_0_12px_rgba(6,182,212,0.8)]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-pixel uppercase tracking-widest text-neon-pink drop-shadow-[0_0_10px_rgba(236,72,153,0.7)]",
+      "h3_card": "text-xl sm:text-2xl font-pixel font-semibold text-pixel-yellow",
+      "body_text": "text-sm sm:text-base font-mono text-slate-300 leading-relaxed",
+      "label_tag": "text-xs font-mono uppercase tracking-[0.2em] text-emerald-400"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#07090e",
+      "card_surface": "#0f172a",
+      "overlay_glass": "rgba(15, 23, 42, 0.85)",
+      "crt_scanline": "rgba(18, 16, 16, 0.25)"
+    },
+    "accent_palette": {
+      "neon_cyan": "#06b6d4",
+      "neon_magenta": "#ec4899",
+      "pixel_yellow": "#eab308",
+      "arcade_green": "#10b981",
+      "electric_purple": "#a855f7",
+      "laser_red": "#ef4444"
+    },
+    "borders_and_glows": {
+      "pixel_border_cyan": "border-2 border-cyan-500 shadow-[0_0_15px_rgba(6,182,212,0.4)]",
+      "pixel_border_pink": "border-2 border-pink-500 shadow-[0_0_15px_rgba(236,72,153,0.4)]",
+      "pixel_border_gold": "border-2 border-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.4)]"
+    }
+  },
+  "visual_enhancers": {
+    "crt_scanline_overlay": "Fixed non-blocking inset-0 background with repeating-linear-gradient and subtle CRT flicker effect (pointer-events-none, z-40)",
+    "retro_grid": "Subtle 8-bit grid pattern in background using SVG radial dot matrix or grid line pattern",
+    "arcade_borders": "Step/pixel corner illusion using Tailwind clip-path or nested sharp borders without smooth rounded radii for key components",
+    "sound_and_haptics": "Optional Web Audio API synthesized 8-bit chiptune sound effects (beep, coin insert, level up) on click/hover with audio toggle button"
+  },
+  "key_features_and_sections": [
+    {
+      "section_id": "arcade_boot_hero",
+      "name": "PRESS START Boot Screen & Kinetic Hero",
+      "features": [
+        "Interactive Arcade Cabinet Boot Sequence: 'INSERT COIN / PRESS START' button to unlock full page sound and animations",
+        "Masked line-by-line title reveal: 'PLAYER 1: MCA CANDIDATE READY FOR HCL GUVI'",
+        "Live stats counter: HP 100%, LEVEL: MCA Final Year, GUVI STATUS: Qualified, HAVELOC ID: Active",
+        "Action buttons: 'START GAME / EXPLORE QUESTS' and 'DOWNLOAD RESUME (8-BIT PDF)'"
+      ]
+    },
+    {
+      "section_id": "manifesto_about",
+      "name": "Chapter 01: Character Select & Origin Story",
+      "features": [
+        "Character stats sheet: Academic specs, MCA Specialization, Haveloc application context, problem-solving mindset",
+        "Interactive bio chapters switchable like RPG character classes (Backend Wizard, Fullstack Knight, Algo Alchemist)",
+        "HCL GUVI alignment mission banner highlighting readiness for enterprise software challenges"
+      ]
+    },
+    {
+      "section_id": "skills_xp",
+      "name": "Chapter 02: Skill Trees & XP Stats Bar",
+      "features": [
+        "Interactive XP progress bars with animated numbers and glowing pixel meters",
+        "Categorized Skill Inventory: Core CS (DS/Algo, DBMS, OS), Frontend (React, Tailwind), Backend (FastAPI, Python, Node, SQL), Cloud & Tools (Git, Docker, CI/CD)",
+        "Combos & Special Moves badges (e.g. 'Triple Stack Combo: React + FastAPI + Postgres')"
+      ]
+    },
+    {
+      "section_id": "projects_quests",
+      "name": "Chapter 03: Quest Logs (MCA Projects)",
+      "features": [
+        "Quest Cards styled as classic game levels (LEVEL 1: Enterprise AI System, LEVEL 2: Fullstack E-Commerce, LEVEL 3: Realtime Analytics Engine)",
+        "Difficulty rating badges (BOSS LEVEL, HARD, INSANE)",
+        "Interactive Modal / Quest Details view with tech stack tags, system architecture highlights, live demo link, and github repo link"
+      ]
+    },
+    {
+      "section_id": "contact_arcade",
+      "name": "Final Stage: High Score & Insert Coin Contact",
+      "features": [
+        "Arcade High Score Leaderboard showing top recruiter/interviewer messages or candidate pitch",
+        "Insert Coin Contact Form with real-time field validation, glowing interactive arcade buttons, and instant feedback toast notification using Sonner",
+        "Direct email / LinkedIn / GitHub arcade link triggers"
+      ]
+    },
+    {
+      "section_id": "easter_egg",
+      "name": "Konami Code Easter Egg",
+      "features": [
+        "Global keyboard listener for ↑ ↑ ↓ ↓ ← → ← → B A sequence",
+        "Triggers 'GOD MODE UNLOCKED' particle explosion, retro rainbow palette, and secret recruiter cheat code modal!"
+      ]
+    }
+  ],
+  "image_urls": [
+    {
+      "category": "hero_arcade_bg",
+      "url": "https://images.unsplash.com/photo-1757444838044-d9dcb1bb3017?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwyfHxhcmNhZGUlMjBjYWJpbmV0JTIwbmVvbiUyMHJldHJvJTIwZ2FtaW5nJTIwcGl4ZWwlMjBhcnR8ZW58MHx8fHwxNzg4MjY5NTY2fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Vintage arcade machine glowing with cyan and purple neon lights"
+    },
+    {
+      "category": "street_fighter_arcade",
+      "url": "https://images.unsplash.com/photo-1749527175486-d37418187116?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxhcmNhZGUlMjBjYWJpbmV0JTIwbmVvbiUyMHJldHJvJTIwZ2FtaW5nJTIwcGl4ZWwlMjBhcnR8ZW58MHx8fHwxNzg4MjY5NTY2fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Retro arcade cabinet screen for high energy project showcase background"
+    },
+    {
+      "category": "neon_blue_cabinet",
+      "url": "https://images.unsplash.com/photo-1579309750570-00fab2d3e73b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHw0fHxhcmNhZGUlMjBjYWJpbmV0JTIwbmVvbiUyMHJldHJvJTIwZ2FtaW5nJTIwcGl4ZWwlMjBhcnR8ZW58MHx8fHwxNzg4MjY5NTY2fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Deep blue neon arcade machine background"
+    }
+  ],
+  "motion_and_interaction": {
+    "library": "framer-motion",
+    "smooth_scroll": "lenis (smooth momentum scrolling)",
+    "rules": [
+      "Hover states on all arcade buttons must have snappy scale (scale-105 or translate-y-[-2px]) with box-shadow glow increase",
+      "Scroll reveals must use staggered opacity + y-axis slide-in with pixel snapping feel",
+      "Respect prefers-reduced-motion: disable intense flickers if reduced motion is requested by browser",
+      "Strictly avoid transition: all; always specify distinct animated CSS properties"
+    ]
+  },
+  "testing_and_accessibility": {
+    "data_testid_rules": "All interactive elements, buttons, tabs, inputs, cards, and modal triggers MUST have explicit data-testid attributes (e.g. data-testid='press-start-button', data-testid='contact-submit-btn', data-testid='quest-card-1')",
+    "contrast_wcag": "Maintain minimum 4.5:1 contrast ratio for terminal text over dark backgrounds",
+    "focus_states": "Visible high-contrast neon outline on keyboard focus (focus:ring-2 focus:ring-cyan-400 focus:outline-none)"
+  },
+  "instructions_to_main_agent": [
+    "Ensure the index.css imports Google Fonts for Press Start 2P, VT323, Pixelify Sans, and JetBrains Mono.",
+    "Implement Lenis smooth scrolling for luxury momentum control.",
+    "Build clean JS/TS components under src/components with modular data configuration (e.g. candidate details, project list, skills list in a single editable config file).",
+    "Add a fixed CRT scanline overlay and an interactive sound toggle for retro Web Audio SFX.",
+    "Make sure Haveloc and HCL GUVI candidacy references are prominently featured in the portfolio header, hero, and bio to guarantee recruiter impact."
+  ]
+}
