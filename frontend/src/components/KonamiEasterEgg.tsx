@@ -45,7 +45,7 @@ export default function KonamiEasterEgg() {
               GOD MODE UNLOCKED
             </h3>
             <p className="mt-6 font-terminal text-2xl text-slate-300">
-              SECRET RECRUITER CODE: <span className="text-neon-pink">HIRE-AARAV-2026</span>
+              SECRET RECRUITER CODE: <span className="text-neon-pink">HIRE-ANKITA-2027</span>
             </p>
             <p className="mt-3 font-code text-xs text-slate-500">
               ↑ ↑ ↓ ↓ ← → ← → B A — you found it. This candidate hides easter eggs in production too.

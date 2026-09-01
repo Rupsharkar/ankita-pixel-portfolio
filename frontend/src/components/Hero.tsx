@@ -114,9 +114,9 @@ export default function Hero({ booted }: HeroProps) {
             className="mt-8 max-w-xl font-terminal text-xl leading-snug text-slate-300 sm:text-2xl"
             data-testid="hero-subtitle"
           >
-            Final-year MCA student applying to <span className="text-neon-cyan">HCL GUVI</span> via{" "}
-            <span className="text-pixel-yellow">Haveloc</span>. I build full-stack products that feel like games
-            and perform like enterprise software.
+            MCA student at <span className="text-neon-cyan">SRM IST</span> (SGPA 9.67) applying to{" "}
+            <span className="text-neon-cyan">HCL GUVI</span> via <span className="text-pixel-yellow">Haveloc</span>.
+            I turn C++, Python and ML into experiences that feel like games.
           </motion.p>
 
           <motion.div

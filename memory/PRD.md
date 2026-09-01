@@ -26,9 +26,12 @@ User choices: Classic arcade dark theme (neon on black, CRT scanlines). All othe
 - Pixel-corners panels, neon glow typography (Press Start 2P / VT323 / Pixelify Sans / JetBrains Mono)
 - data-testid on all interactive elements
 
+## Identity Update (2026-09-01)
+All placeholder content replaced with real resume data: ANKITA SARKAR, MCA @ SRM IST Chennai (2025–27, SGPA 9.67), BCA IEM Kolkata (CGPA 9.76), as2332@srmist.edu.in, github.com/Rupsarkar, linkedin.com/in/ankita-sarkar-6ba055262. Real projects (Gesture Logic Lab, Scream Alert AI, Smart Weather Station), skills (C++/Python/Java/SQL/DSA), HR internship @ Syntalix.ai, NPTEL Python cert, Director's Award 2025. RESUME.PDF button now links to uploaded resume PDF.
+
 ## Backlog
-- P0: Replace placeholder identity in src/data/portfolio.ts (real name, email, GitHub/LinkedIn URLs, resume PDF link, real projects)
 - P1: Email notification on contact form submit (Resend)
+- P1: Add phone number (+91-8910463954) display if user wants it public
 - P1: Visitor counter / "players online" arcade stat
 - P2: Playable mini-game section (e.g., breakout or snake)
 - P2: Downloadable 8-bit styled resume PDF generated from config

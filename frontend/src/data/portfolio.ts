@@ -1,76 +1,80 @@
 export const profile = {
-  name: "AARAV MEHTA",
-  handle: "AARAV.EXE",
-  tagline: "MCA · FULL-STACK DEVELOPER",
+  name: "ANKITA SARKAR",
+  handle: "ANKITA.EXE",
+  tagline: "MCA · SRM IST",
   mission: "READY FOR HCL GUVI",
-  location: "CHENNAI, IN",
-  email: "aarav.codes@gmail.com",
-  github: "https://github.com/your-username",
-  linkedin: "https://www.linkedin.com/in/your-username",
-  resumeUrl: "#",
+  location: "KOLKATA → CHENNAI",
+  email: "as2332@srmist.edu.in",
+  github: "https://github.com/Rupsarkar",
+  linkedin: "https://www.linkedin.com/in/ankita-sarkar-6ba055262",
+  resumeUrl:
+    "https://customer-assets-7cd3h4nn.emergentagent.net/job_pixel-portfolio-mca/artifacts/zaefvdcp_ANKITA_SARKAR_RESUMEE.pdf",
 };
 
 export const heroLines = [
-  { text: "AARAV MEHTA", color: "text-neon-cyan", glow: "drop-shadow-[0_0_16px_rgba(6,182,212,0.75)]" },
-  { text: "MCA · FULL-STACK", color: "text-neon-pink", glow: "drop-shadow-[0_0_16px_rgba(236,72,153,0.75)]" },
+  { text: "ANKITA SARKAR", color: "text-neon-cyan", glow: "drop-shadow-[0_0_16px_rgba(6,182,212,0.75)]" },
+  { text: "MCA · SRM IST '27", color: "text-neon-pink", glow: "drop-shadow-[0_0_16px_rgba(236,72,153,0.75)]" },
   { text: "READY FOR HCL GUVI", color: "text-pixel-yellow", glow: "drop-shadow-[0_0_16px_rgba(234,179,8,0.75)]" },
 ];
 
 export const hudStats = [
   { label: "HP", value: "100/100" },
-  { label: "LEVEL", value: "MCA FINAL YEAR" },
-  { label: "CLASS", value: "FULLSTACK KNIGHT" },
+  { label: "LEVEL", value: "MCA · SRM IST" },
+  { label: "CLASS", value: "DSA ALCHEMIST" },
   { label: "GUILD", value: "HAVELOC" },
   { label: "TARGET", value: "HCL GUVI" },
 ];
 
 export const marqueeItems = [
   "HCL GUVI READY",
-  "MCA CLASS OF 2026",
-  "FULL-STACK DEVELOPER",
+  "MCA · SRM IST · CLASS OF 2027",
+  "SGPA 9.67",
+  "C++ · PYTHON · JAVA · SQL",
   "OPEN TO WORK",
-  "HAVELOC PROFILE ACTIVE",
-  "SHIPS CODE. FIXES BUGS. NO CONTINUES NEEDED",
+  "DIRECTOR'S AWARD 2025",
+  "GESTURES. ML. IOT. NO CONTINUES NEEDED",
 ];
 
 export const characterClasses = [
   {
-    id: "knight",
-    name: "FULLSTACK KNIGHT",
+    id: "alchemist",
+    name: "DSA ALCHEMIST",
     color: "#06b6d4",
-    weapon: "React 19 + FastAPI",
-    special: "SHIPPED-TO-PROD SLASH",
-    lore: "Front-line builder. Ships responsive React interfaces wired to production FastAPI backends. Believes a feature isn't done until it's deployed, measured, and delighting users.",
+    weapon: "C++ · Data Structures",
+    special: "O(LOG N) TRANSMUTATION",
+    lore: "Transmutes messy problems into elegant algorithms. C++ is the weapon of choice, backed by deep OOP and DBMS fundamentals. Complexity analysis is the party trick; clean, readable code is the signature.",
+  },
+  {
+    id: "mage",
+    name: "ML MAGE",
+    color: "#a855f7",
+    weapon: "Python · Audio ML",
+    special: "SCREAM-DETECTION SHIELD",
+    lore: "Trains machines to hear danger. Built an ML scream-detection and emergency alert system using audio classification — safety-first engineering where every millisecond of response time matters.",
   },
   {
     id: "wizard",
     name: "BACKEND WIZARD",
-    color: "#a855f7",
-    weapon: "Python · Node · SQL",
-    special: "ZERO-N+1 INCANTATION",
-    lore: "Summons clean APIs, normalized schemas, and queries that never N+1. Comfortable across Python, Node, SQL and MongoDB — the backend is where the real magic happens.",
-  },
-  {
-    id: "alchemist",
-    name: "ALGO ALCHEMIST",
     color: "#eab308",
-    weapon: "DSA · System Design",
-    special: "O(LOG N) TRANSMUTATION",
-    lore: "Transmutes messy problems into elegant algorithms. 500+ DSA problems solved, from arrays to graphs. Complexity analysis is the party trick; readable code is the signature.",
+    weapon: "Java · SQL · DBMS",
+    special: "ZERO-N+1 INCANTATION",
+    lore: "Summons normalized schemas and queries that never N+1. Strong foundation across Java, Python, SQL and DBMS — plus basic system design for when the raid boss is scale itself.",
   },
 ];
 
 export const aboutSpecs = [
-  { label: "DEGREE", value: "MCA — MASTER OF COMPUTER APPLICATIONS" },
-  { label: "BASE", value: "CHENNAI, INDIA" },
+  { label: "DEGREE", value: "MCA — SRM IST, CHENNAI (2025–27 · SGPA 9.67)" },
+  { label: "BCA", value: "IEM KOLKATA (2022–25 · CGPA 9.76)" },
+  { label: "QUEST", value: "HR INTERN @ SYNTALIX.AI (MAR–JUL 2024)" },
+  { label: "BASE", value: "KOLKATA → CHENNAI" },
   { label: "GUILD", value: "HAVELOC — APPLICATION ACTIVE" },
-  { label: "TARGET", value: "HCL GUVI — SOFTWARE ROLES" },
-  { label: "STATUS", value: "OPEN TO WORK · IMMEDIATE" },
-  { label: "LANGUAGES", value: "EN / TA / HI" },
+  { label: "TARGET", value: "HCL GUVI — ENTRY-LEVEL IT ROLES" },
+  { label: "AWARDS", value: "DIRECTOR'S AWARD 2025 · DEBATE CHAMPION" },
+  { label: "LANGUAGES", value: "EN / BN / HI" },
 ];
 
 export const missionBrief =
-  "MISSION BRIEF: HCL GUVI builds learning and hiring infrastructure for millions of developers. This candidate ships full-stack features fast, learns faster, and treats every sprint like a boss fight — no continues required.";
+  "MISSION BRIEF: HCL GUVI builds learning and hiring infrastructure for millions of developers. This candidate pairs a 9.67 SGPA with hands-on builds in gesture control, ML safety systems and IoT — plus the communication and teamwork stats of a proven coordinator. Ready to level up inside a technology-driven team.";
 
 export interface Skill {
   name: string;
@@ -88,39 +92,39 @@ export const skillTrees: SkillTree[] = [
     title: "CORE CS",
     color: "#10b981",
     skills: [
-      { name: "Data Structures & Algorithms", xp: 86 },
-      { name: "DBMS / SQL", xp: 90 },
-      { name: "Operating Systems", xp: 78 },
-      { name: "Computer Networks", xp: 74 },
+      { name: "Data Structures & Algorithms", xp: 90 },
+      { name: "OOP", xp: 85 },
+      { name: "DBMS & SQL", xp: 88 },
+      { name: "Networks & System Design", xp: 74 },
     ],
   },
   {
-    title: "FRONTEND",
+    title: "LANGUAGES",
     color: "#06b6d4",
     skills: [
-      { name: "React / Next.js", xp: 88 },
-      { name: "TypeScript", xp: 80 },
-      { name: "Tailwind CSS", xp: 92 },
-      { name: "Framer Motion", xp: 76 },
+      { name: "C++", xp: 88 },
+      { name: "Python", xp: 86 },
+      { name: "Java", xp: 82 },
+      { name: "SQL", xp: 85 },
     ],
   },
   {
-    title: "BACKEND & TOOLS",
+    title: "BUILD & BEYOND",
     color: "#ec4899",
     skills: [
-      { name: "Python / FastAPI", xp: 92 },
-      { name: "Node.js / Express", xp: 84 },
-      { name: "MongoDB / PostgreSQL", xp: 85 },
-      { name: "Docker / Git / CI-CD", xp: 78 },
+      { name: "Git & GitHub", xp: 84 },
+      { name: "Machine Learning", xp: 74 },
+      { name: "IoT & Sensors", xp: 72 },
+      { name: "Communication & Teamwork", xp: 92 },
     ],
   },
 ];
 
 export const combos = [
-  "TRIPLE STACK COMBO: REACT + FASTAPI + MONGODB",
-  "FULL COMBO: DOCKER + GIT + CI/CD PIPELINE",
-  "COUNTER MOVE: DSA UNDER INTERVIEW PRESSURE",
-  "BUFF ACTIVE: GUVI CERTIFICATION PATHS",
+  "COMBO: C++ + DSA + OOP",
+  "COMBO: PYTHON + ML + SQL",
+  "BUFF ACTIVE: NPTEL PYTHON CERTIFIED",
+  "PASSIVE: DIRECTOR'S AWARD 2025",
 ];
 
 export interface Quest {
@@ -139,60 +143,47 @@ export interface Quest {
 export const quests: Quest[] = [
   {
     level: 1,
-    title: "ZENFLOW LMS",
+    title: "GESTURE LOGIC LAB",
     difficulty: "BOSS LEVEL",
     color: "#ef4444",
-    tagline: "A GUVI-style learning platform with courses, quizzes and progress tracking.",
+    tagline: "A digital logic lab you control with your bare hands.",
     description:
-      "Full-stack learning management system: course builder, video lessons, timed quizzes with auto-grading, streak-based gamification, and an admin analytics dashboard. Role-based auth for students and mentors, with cohort progress heatmaps.",
-    stack: ["React", "FastAPI", "MongoDB", "JWT", "Tailwind"],
+      "Interactive digital logic laboratory driven by hand gestures — simulate and operate logic gates in the air for a visual, intuitive way to learn digital electronics. Real-time gesture tracking drives gate switching and output states without touching a keyboard.",
+    stack: ["Python", "Computer Vision", "Gesture Control", "Digital Electronics"],
     xp: "+4500 XP",
     demo: "#",
-    repo: "https://github.com/your-username",
+    repo: "https://github.com/Rupsarkar",
   },
   {
     level: 2,
-    title: "PIXELPAY DASHBOARD",
-    difficulty: "HARD",
-    color: "#eab308",
-    tagline: "Realtime payments analytics dashboard for a fintech case study.",
+    title: "SCREAM ALERT AI",
+    difficulty: "INSANE",
+    color: "#a855f7",
+    tagline: "ML that hears danger and calls for help.",
     description:
-      "Transaction streaming pipeline with live-updating charts, fraud-flag heuristics, refund workflows, and CSV export. Built idempotent webhook handlers and reconciliation jobs that survive retries and out-of-order events.",
-    stack: ["React", "Node.js", "PostgreSQL", "Recharts", "Docker"],
-    xp: "+3200 XP",
+      "Python-based machine learning model for scream detection with automated emergency alerts, built on audio classification. Designed for safety-first scenarios where every second of response time matters.",
+    stack: ["Python", "Machine Learning", "Audio Classification", "Automation"],
+    xp: "+5000 XP",
     demo: "#",
-    repo: "https://github.com/your-username",
+    repo: "https://github.com/Rupsarkar",
   },
   {
     level: 3,
-    title: "RETROSIGHT AI",
-    difficulty: "INSANE",
-    color: "#a855f7",
-    tagline: "ML sentiment engine that reads 10k product reviews in seconds.",
-    description:
-      "End-to-end NLP service: scrapes reviews, runs a fine-tuned sentiment classifier, clusters complaints by theme, and serves a explainable summary API. Containerized with Docker and deployed behind a FastAPI gateway with request caching.",
-    stack: ["Python", "scikit-learn", "FastAPI", "Docker", "Redis"],
-    xp: "+5000 XP",
-    demo: "#",
-    repo: "https://github.com/your-username",
-  },
-  {
-    level: 4,
-    title: "QUESTBOARD",
+    title: "SMART WEATHER STATION",
     difficulty: "HARD",
     color: "#06b6d4",
-    tagline: "Multiplayer realtime kanban — drag, drop, and watch everyone move.",
+    tagline: "IoT sensors streaming the sky in real time.",
     description:
-      "Realtime collaboration board with WebSocket sync, presence indicators, optimistic drag-and-drop, conflict-free card ordering, and room-based permissions. Sub-100ms update latency across concurrent sessions.",
-    stack: ["React", "WebSockets", "Redis", "MongoDB", "TypeScript"],
-    xp: "+3800 XP",
+      "IoT-based real-time weather monitoring system using environmental sensors for live data collection and display — temperature, humidity and atmospheric readings piped straight to a live dashboard.",
+    stack: ["IoT", "Sensors", "Embedded Systems", "Realtime Data"],
+    xp: "+3200 XP",
     demo: "#",
-    repo: "https://github.com/your-username",
+    repo: "https://github.com/Rupsarkar",
   },
 ];
 
 export const highScores = [
   { rank: "1ST", name: "YOU — READING THIS", score: "999999" },
-  { rank: "2ND", name: "THIS CANDIDATE", score: "000002" },
+  { rank: "2ND", name: "ANKITA SARKAR", score: "009867" },
   { rank: "3RD", name: "AVERAGE PORTFOLIO", score: "000000" },
 ];
