@@ -19,6 +19,7 @@ if (!hotReloadDisabled) {
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/ankita-pixel-portfolio/",
   plugins: [
     react(),
     tailwindcss(),
