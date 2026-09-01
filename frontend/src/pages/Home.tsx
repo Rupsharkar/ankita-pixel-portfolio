@@ -10,6 +10,7 @@ import Marquee from "@/components/Marquee";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Quests from "@/components/Quests";
+import MiniGame from "@/components/MiniGame";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import KonamiEasterEgg from "@/components/KonamiEasterEgg";
@@ -35,6 +36,7 @@ export default function Home() {
         <About />
         <Skills />
         <Quests />
+        <MiniGame />
         <Contact />
       </main>
       <Footer />

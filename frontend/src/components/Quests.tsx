@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { ExternalLink, GitBranch, X } from "lucide-react";
+import { Play, X } from "lucide-react";
 import { quests, type Quest } from "@/data/portfolio";
 import { PixelPanel } from "@/components/PixelPanel";
+import { scrollToId } from "@/lib/scroll";
 import { sfx } from "@/lib/sfx";
 
 export default function Quests() {
@@ -125,26 +126,22 @@ export default function Quests() {
                     ))}
                   </div>
                   <div className="mt-7 flex flex-wrap items-center gap-4">
-                    <a
-                      data-testid="quest-modal-demo-link"
-                      href={active.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 border-2 border-neon-cyan px-4 py-2 font-arcade text-[10px] text-neon-cyan transition-colors duration-150 hover:bg-neon-cyan hover:text-void focus:outline-none focus:ring-2 focus:ring-cyan-400"
+                    <button
+                      data-testid="quest-modal-request-demo-btn"
+                      onClick={() => {
+                        sfx.coin();
+                        setActive(null);
+                        scrollToId("contact");
+                      }}
+                      className="flex cursor-pointer items-center gap-2 border-2 border-neon-cyan px-4 py-2 font-arcade text-[10px] text-neon-cyan transition-colors duration-150 hover:bg-neon-cyan hover:text-void focus:outline-none focus:ring-2 focus:ring-cyan-400"
                     >
-                      <ExternalLink size={14} /> LIVE DEMO
-                    </a>
-                    <a
-                      data-testid="quest-modal-repo-link"
-                      href={active.repo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 border-2 border-slate-500 px-4 py-2 font-arcade text-[10px] text-slate-300 transition-colors duration-150 hover:bg-slate-300 hover:text-void focus:outline-none focus:ring-2 focus:ring-cyan-400"
-                    >
-                      <GitBranch size={14} /> SOURCE
-                    </a>
+                      <Play size={14} /> REQUEST LIVE DEMO
+                    </button>
                     <span className="ml-auto font-arcade text-[10px] text-arcade-green">{active.xp}</span>
                   </div>
+                  <p className="mt-4 font-terminal text-lg text-slate-500">
+                    DEMO AVAILABLE ON REQUEST — INSERT COIN AT THE FINAL STAGE TO CONNECT.
+                  </p>
                 </div>
               </PixelPanel>
             </motion.div>

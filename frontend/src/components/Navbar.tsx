@@ -8,6 +8,7 @@ const LINKS = [
   { id: "about", label: "ABOUT" },
   { id: "skills", label: "SKILLS" },
   { id: "quests", label: "QUESTS" },
+  { id: "minigame", label: "BONUS" },
   { id: "contact", label: "CONTACT" },
 ];
 

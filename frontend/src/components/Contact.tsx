@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import { toast } from "sonner";
-import { Briefcase, GitBranch, Mail } from "lucide-react";
+import { Briefcase, GitBranch, Mail, Phone } from "lucide-react";
 import { highScores, profile } from "@/data/portfolio";
 import { PixelPanel } from "@/components/PixelPanel";
 import { PixelSprite, COIN } from "@/components/PixelSprite";
@@ -175,6 +175,15 @@ export default function Contact() {
               >
                 <Mail size={20} className="text-neon-cyan" />
                 <span className="font-terminal text-xl text-slate-200">{profile.email.toUpperCase()}</span>
+              </a>
+              <a
+                data-testid="social-phone-link"
+                href={profile.phoneHref}
+                onMouseEnter={() => sfx.blip()}
+                className="flex items-center gap-4 border-2 border-slate-700 bg-panel px-5 py-4 transition-colors duration-150 hover:border-neon-cyan focus:outline-none focus:ring-2 focus:ring-cyan-400"
+              >
+                <Phone size={20} className="text-neon-cyan" />
+                <span className="font-terminal text-xl text-slate-200">{profile.phone} — DIRECT LINE</span>
               </a>
             </div>
           </motion.div>

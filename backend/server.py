@@ -16,6 +16,7 @@ load_dotenv(ROOT_DIR / '.env')
 
 # MongoDB connection
 from lib.db import client, db
+from lib.emailer import notify_contact_message
 
 
 @asynccontextmanager
@@ -53,6 +54,10 @@ async def create_contact(input: ContactMessageCreate):
         created_at=datetime.now(timezone.utc).isoformat(),
     )
     await db.contact_messages.insert_one(doc.model_dump())
+    try:
+        await notify_contact_message(name=doc.name, email=doc.email, message=doc.message)
+    except Exception:
+        logging.getLogger(__name__).exception("Contact email notification failed")
     return doc
 
 

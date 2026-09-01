@@ -29,18 +29,22 @@ User choices: Classic arcade dark theme (neon on black, CRT scanlines). All othe
 ## Identity Update (2026-09-01)
 All placeholder content replaced with real resume data: ANKITA SARKAR, MCA @ SRM IST Chennai (2025–27, SGPA 9.67), BCA IEM Kolkata (CGPA 9.76), as2332@srmist.edu.in, github.com/Rupsarkar, linkedin.com/in/ankita-sarkar-6ba055262. Real projects (Gesture Logic Lab, Scream Alert AI, Smart Weather Station), skills (C++/Python/Java/SQL/DSA), HR internship @ Syntalix.ai, NPTEL Python cert, Director's Award 2025. RESUME.PDF button now links to uploaded resume PDF.
 
+## Implemented (2026-09-01, session 2)
+- Email alerts: contact form now emails as2332@srmist.edu.in via Emergent managed email (backend/lib/emailer.py, guardrail gate included; email failure never blocks DB save). Verified 202 Accepted.
+- Phone on contact card: +91-8910463954 tel: link (social-phone-link).
+- Quest cards: removed fake demo/repo links (user's GitHub is empty) → "REQUEST LIVE DEMO" CTA that closes modal and scrolls to contact.
+- Playable BONUS STAGE: BREAKOUT.EXE mini-game (MiniGame.tsx, canvas, mouse/arrow controls, skill-row bricks, score/lives/last-clear HUD, win = "HIRE-READY CANDIDATE"). BONUS added to navbar.
+
 ## Backlog
-- P1: Email notification on contact form submit (Resend)
-- P1: Add phone number (+91-8910463954) display if user wants it public
 - P1: Visitor counter / "players online" arcade stat
-- P2: Playable mini-game section (e.g., breakout or snake)
+- P1: Add real demo/repo links to quests once user publishes projects on GitHub
 - P2: Downloadable 8-bit styled resume PDF generated from config
 - P2: Achievements/trophies section for certifications (GUVI certs)
+- P2: Mini-game mobile polish (touch tuning)
 
 ## Next Tasks
-1. User sends real name/links/projects → swap into config
-2. Wire Resend email alerts for new contact messages
-3. Add certifications section
+1. Add certifications/achievements section
+2. Visitor counter arcade stat
 
 ## Test Credentials
 No auth in this app. See /app/memory/test_credentials.md.

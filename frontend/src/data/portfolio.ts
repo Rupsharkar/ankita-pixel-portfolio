@@ -5,6 +5,8 @@ export const profile = {
   mission: "READY FOR HCL GUVI",
   location: "KOLKATA → CHENNAI",
   email: "as2332@srmist.edu.in",
+  phone: "+91-8910463954",
+  phoneHref: "tel:+918910463954",
   github: "https://github.com/Rupsarkar",
   linkedin: "https://www.linkedin.com/in/ankita-sarkar-6ba055262",
   resumeUrl:
@@ -136,8 +138,6 @@ export interface Quest {
   description: string;
   stack: string[];
   xp: string;
-  demo: string;
-  repo: string;
 }
 
 export const quests: Quest[] = [
@@ -151,8 +151,6 @@ export const quests: Quest[] = [
       "Interactive digital logic laboratory driven by hand gestures — simulate and operate logic gates in the air for a visual, intuitive way to learn digital electronics. Real-time gesture tracking drives gate switching and output states without touching a keyboard.",
     stack: ["Python", "Computer Vision", "Gesture Control", "Digital Electronics"],
     xp: "+4500 XP",
-    demo: "#",
-    repo: "https://github.com/Rupsarkar",
   },
   {
     level: 2,
@@ -164,8 +162,6 @@ export const quests: Quest[] = [
       "Python-based machine learning model for scream detection with automated emergency alerts, built on audio classification. Designed for safety-first scenarios where every second of response time matters.",
     stack: ["Python", "Machine Learning", "Audio Classification", "Automation"],
     xp: "+5000 XP",
-    demo: "#",
-    repo: "https://github.com/Rupsarkar",
   },
   {
     level: 3,
@@ -177,8 +173,6 @@ export const quests: Quest[] = [
       "IoT-based real-time weather monitoring system using environmental sensors for live data collection and display — temperature, humidity and atmospheric readings piped straight to a live dashboard.",
     stack: ["IoT", "Sensors", "Embedded Systems", "Realtime Data"],
     xp: "+3200 XP",
-    demo: "#",
-    repo: "https://github.com/Rupsarkar",
   },
 ];
 
